@@ -5,17 +5,17 @@ import { AppRoutingModule } from './core/routes/routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { LoginModule } from './views/login/login.module';
-import { SignupComponent } from './views/signup/signup.component';
+import { RegisterModule } from './views/register/register.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LoginModule,
+    RegisterModule,
     SharedModule
   ],
   providers: [],

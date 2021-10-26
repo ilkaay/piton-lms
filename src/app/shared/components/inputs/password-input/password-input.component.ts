@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-password-input',
+  selector: 'password-input',
   templateUrl: './password-input.component.html',
   styleUrls: ['./password-input.component.css']
 })

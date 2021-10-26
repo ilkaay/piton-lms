@@ -1,3 +1,18 @@
-<div>
-  <confirm-button></confirm-button>
+<div class="container text-center pt-5">
+  <div class="mt-5">
+    <img
+      class="rounded-3"
+      src="https://wpforms.com/wp-content/uploads/2019/03/best-wordpress-lms-plugins.jpg"
+    />
+  </div>
+  <div class="mt-5 col-6 mx-auto">
+    <login-form></login-form>
+  </div>
+  <div class="mt-5 text-center">
+    <p>Create an account!</p>
+    <confirm-button
+      [clickHandler]="registerHandler"
+      [text]="'Register'"
+    ></confirm-button>
+  </div>
 </div>
