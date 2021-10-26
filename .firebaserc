@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "piton-lms": {
+      "hosting": {
+        "piton-lms": [
+          "piton-lms"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "piton-lms"
+  }
+}
