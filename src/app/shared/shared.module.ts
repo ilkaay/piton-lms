@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { ConfirmButtonComponent } from './components/buttons/confirm-button/confirm-button.component';
 import { EmailInputComponent } from './components/inputs/email-input/email-input.component';
 import { PasswordInputComponent } from './components/inputs/password-input/password-input.component';
+import { TextInputComponent } from './components/inputs/text-input/text-input.component';
 
 
 @NgModule({
   declarations: [
     ConfirmButtonComponent,
     EmailInputComponent,
-    PasswordInputComponent
+    PasswordInputComponent,
+    TextInputComponent,
   ],
   imports: [
     CommonModule
@@ -18,6 +20,7 @@ import { PasswordInputComponent } from './components/inputs/password-input/passw
     ConfirmButtonComponent, 
     EmailInputComponent, 
     PasswordInputComponent,
+    TextInputComponent,
     CommonModule
   ]
 })

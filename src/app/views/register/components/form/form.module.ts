@@ -1,22 +1,22 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { LoginFormModule } from './components/form/form.module';
-import { LoginComponent } from './login.component';
+import { FormComponent } from './form.component';
 
 
 @NgModule({
   declarations: [
-    LoginComponent
+    FormComponent
   ],
   imports: [
     BrowserModule,
     SharedModule,
-    LoginFormModule
+    CommonModule
   ],
   exports: [
-    LoginComponent
+    FormComponent
   ],
   providers: [],
 })
-export class LoginModule { }
+export class RegisterFormModule { }
