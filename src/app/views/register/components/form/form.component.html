@@ -20,7 +20,10 @@
       <password-input></password-input>
     </div>
     <div class="form-group mt-3">
-      <confirm-button [text]="'Register'"></confirm-button>
+      <confirm-button
+        [clickHandler]="redirectToInitialPage"
+        [text]="'Register'"
+      ></confirm-button>
     </div>
   </form>
 </div>

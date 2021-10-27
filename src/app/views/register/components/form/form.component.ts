@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'register-form',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-
-  constructor() { }
+  redirectToInitialPage = (): void => {
+    this.router.navigate([''])
+  };
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
