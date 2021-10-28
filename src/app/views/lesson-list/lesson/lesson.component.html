@@ -1,0 +1,28 @@
+<div class="card m-3 p-3">
+  <div class="row">
+    <div class="col-3">
+      <img src="../../../favicon.ico" class="img-fluid" alt="course-image" />
+    </div>
+    <div class="col-8 my-auto">
+      <div class="card-body">
+        <h5 class="card-title">'lesson.name'</h5>
+        <p class="card-text">'lesson.description'</p>
+        <p class="card-text">
+          <small class="text-muted">
+            Teacher: 'lesson.teacher.firsName' 'lesson.teacher.lastName'
+          </small>
+        </p>
+        <p class="card-text">
+          <small class="text-muted"> Students Count: 'srudents.length' </small>
+        </p>
+      </div>
+    </div>
+    <div>
+      <confirm-button
+        class="float-end"
+        [clickHandler]="redirectToLessonPage"
+        [text]="'Take The Course'"
+      ></confirm-button>
+    </div>
+  </div>
+</div>

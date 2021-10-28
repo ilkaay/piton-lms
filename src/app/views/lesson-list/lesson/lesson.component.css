@@ -3,6 +3,7 @@
   transition: 0.5s;
 }
 .card:hover {
+  background-color: #e2eafc;
   border-color: #abc4ff;
   padding: 1rem;
   box-shadow: #abc4ff 0px 5px 25px 0px;

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'lessons',
-  templateUrl: './lessons.component.html',
-  styleUrls: ['./lessons.component.css']
+  selector: 'lesson',
+  templateUrl: './lesson.component.html',
+  styleUrls: ['./lesson.component.css']
 })
-export class LessonsComponent implements OnInit {
+export class LessonComponent implements OnInit {
   redirectToLessonPage = (): void => {
     this.router.navigate([''])
   };
