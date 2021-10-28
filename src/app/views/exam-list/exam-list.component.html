@@ -1,3 +1,14 @@
-<div class="container">
-  <exam class="col-6" *ngFor="let i of [1, 2, 3, 4, 5]"></exam>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-4">
+      <ul class="list-group mt-3 border-end border-primary">
+        <li class="list-group-item p-3" *ngFor="let n of [1, 2, 3, 4, 5]">
+          <teacher></teacher>
+        </li>
+      </ul>
+    </div>
+    <div class="col-8">
+      <exam *ngFor="let n of [1, 2, 3, 4, 5]"></exam>
+    </div>
+  </div>
 </div>

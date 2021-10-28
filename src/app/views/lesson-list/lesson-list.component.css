@@ -1,0 +1,9 @@
+li {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e2eafc;
+}
+li:hover {
+  background-color: transparent;
+  box-shadow: #abc4ff 0px 5px 25px 0px;
+}

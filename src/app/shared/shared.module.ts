@@ -5,6 +5,7 @@ import { EmailInputComponent } from './components/inputs/email-input/email-input
 import { PasswordInputComponent } from './components/inputs/password-input/password-input.component';
 import { TextInputComponent } from './components/inputs/text-input/text-input.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { TeacherComponent } from './components/teacher/teacher.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     EmailInputComponent,
     PasswordInputComponent,
     TextInputComponent,
-    NavbarComponent
+    NavbarComponent,
+    TeacherComponent
   ],
   imports: [
     CommonModule
@@ -24,7 +26,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     PasswordInputComponent,
     TextInputComponent,
     NavbarComponent,
-    CommonModule
+    CommonModule,
+    TeacherComponent
   ]
 })
 export class SharedModule { }

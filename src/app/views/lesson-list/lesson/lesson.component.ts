@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class LessonComponent implements OnInit {
   redirectToLessonPage = (): void => {
-    this.router.navigate([''])
+    this.router.navigate(['lesson']);
   };
   constructor(private router: Router) { }
 
