@@ -4,6 +4,7 @@ import { ConfirmButtonComponent } from './components/buttons/confirm-button/conf
 import { EmailInputComponent } from './components/inputs/email-input/email-input.component';
 import { PasswordInputComponent } from './components/inputs/password-input/password-input.component';
 import { TextInputComponent } from './components/inputs/text-input/text-input.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { TextInputComponent } from './components/inputs/text-input/text-input.co
     EmailInputComponent,
     PasswordInputComponent,
     TextInputComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule
@@ -21,6 +23,7 @@ import { TextInputComponent } from './components/inputs/text-input/text-input.co
     EmailInputComponent, 
     PasswordInputComponent,
     TextInputComponent,
+    NavbarComponent,
     CommonModule
   ]
 })

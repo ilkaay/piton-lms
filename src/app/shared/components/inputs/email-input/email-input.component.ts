@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'email-input',
@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./email-input.component.css']
 })
 export class EmailInputComponent implements OnInit {
+  @Output() emailInputValue:EventEmitter<string> = new EventEmitter();
 
+  emailInputChange(event: any): void{
+    this.emailInputValue.emit(event.target.value);
+  }
   constructor() { }
 
   ngOnInit(): void {

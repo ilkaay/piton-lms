@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { AngularFireDatabase } from '@angular/fire/compat/database';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +7,6 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'piton-lms';
-  items: Observable<any>;
-  constructor(db: AngularFireDatabase ){
-    this.items = db.object('item').valueChanges();
-    console.log(this.items)
+  constructor(){
   }
 }
