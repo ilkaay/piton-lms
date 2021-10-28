@@ -8,6 +8,7 @@ import { LoginModule } from './views/login/login.module';
 import { RegisterModule } from './views/register/register.module';
 import { AngularFireModule} from "@angular/fire/compat";
 import { AngularFireAnalyticsModule } from "@angular/fire/compat/analytics";
+import { LessonsModule } from './views/lessons/lessons.module';
 
 const environment = {
   production: false,
@@ -32,6 +33,7 @@ const environment = {
     LoginModule,
     RegisterModule,
     SharedModule,
+    LessonsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
   ],

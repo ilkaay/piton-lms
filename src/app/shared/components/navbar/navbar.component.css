@@ -1,3 +1,7 @@
 .navbar {
   justify-content: inherit;
 }
+
+.navbar a {
+  color: #003ecf;
+}

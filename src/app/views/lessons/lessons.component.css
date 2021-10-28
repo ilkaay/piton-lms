@@ -1,0 +1,9 @@
+.card {
+  background-color: #edf2fb;
+  transition: 0.5s;
+}
+.card:hover {
+  border-color: #abc4ff;
+  padding: 1rem;
+  box-shadow: #abc4ff 0px 5px 25px 0px;
+}
